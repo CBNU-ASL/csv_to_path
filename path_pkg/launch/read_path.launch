@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-
-<launch>
-  <!-- get reference path -->
-  <param name="frame_id" type="string" value="Fr0"/>
-  <param name="file_path" type="string" value="$(find path_pkg)/path/center_path.csv" />
-  <node pkg="path_pkg" type="read_path.py" name="path_pkg" output="screen"/>
-</launch>
